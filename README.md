@@ -85,9 +85,3 @@ This was accomplished by those listed below:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[project-screenshot-1]: ./public/img/screenshot.png
-[project-screenshot-2]: ./public/img/screenshot-2.png
-[project-screenshot-3]: ./public/img/screenshot-3.png
-[project-screenshot-4]: ./public/img/screenshot-4.png
-[project-screenshot-5]: ./public/img/screenshot-5.png
