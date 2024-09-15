@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import nexImg from "../public/assets/projects/nexgen.png";
-import digitalImg from "../public/assets/projects/digital.png";
-import pmgImg from "../public/assets/projects/pmg.png";
-import rapidImg from "../public/assets/projects/rapid.png";
+import neonImg from "../public/assets/projects/neon.png";
+import tatumImg from "../public/assets/projects/tatum.png";
+import mintbaseImg from "../public/assets/projects/mintbase.png";
+import connectNodeImg from "../public/assets/projects/connectnode.png";
 import actilist from "../public/assets/projects/actilist.png";
+import pmgImg from "../public/assets/projects/pmgworld.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -23,24 +24,29 @@ const Projects = () => {
             projectUrl="http://test.actilist.io/"
           />
           <ProjectItem
-            title="NexGen BLOCKS"
-            backgroundImg={nexImg}
-            projectUrl="https://nexgenblock.com/"
+            title="Neon Labs"
+            backgroundImg={neonImg}
+            projectUrl="https://www.neonlabs.org/"
           />
           <ProjectItem
-            title="DIGITAL NODE"
-            backgroundImg={digitalImg}
-            projectUrl="https://digital-node.com/"
+            title="Tatum"
+            backgroundImg={tatumImg}
+            projectUrl="https://tatum.io/nfts"
           />
           <ProjectItem
-            title="RAPID BLOCKCHAIN"
-            backgroundImg={rapidImg}
-            projectUrl="https://www.rapidinnovation.io/"
+            title="Blockdaemon"
+            backgroundImg={mintbaseImg}
+            projectUrl="https://www.blockdaemon.com/"
           />
           <ProjectItem
-            title="PMG GLOBAL SOLUTIONS"
+            title="Mintbase"
+            backgroundImg={connectNodeImg}
+            projectUrl="https://www.mintbase.io/"
+          />
+          <ProjectItem
+            title="PMG"
             backgroundImg={pmgImg}
-            projectUrl="https://www.pmgglobal.com/"
+            projectUrl="https://www.pmg.com/"
           />
         </div>
       </div>
