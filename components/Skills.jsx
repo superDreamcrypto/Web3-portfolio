@@ -158,7 +158,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/Phantom.png"
+                  src="/assets/skills/phantom.png"
                   alt="/"
                   width="64"
                   height="64"
