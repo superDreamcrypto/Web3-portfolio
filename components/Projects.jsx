@@ -35,12 +35,12 @@ const Projects = () => {
           />
           <ProjectItem
             title="Blockdaemon"
-            backgroundImg={mintbaseImg}
+            backgroundImg={connectNodeImg}
             projectUrl="https://www.blockdaemon.com/"
           />
           <ProjectItem
             title="Mintbase"
-            backgroundImg={connectNodeImg}
+            backgroundImg={mintbaseImg}
             projectUrl="https://www.mintbase.io/"
           />
           <ProjectItem
