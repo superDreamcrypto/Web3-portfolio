@@ -23,11 +23,11 @@ const Projects = () => {
             backgroundImg={actilist}
             projectUrl="http://test.actilist.io/"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Neon Labs"
             backgroundImg={neonImg}
             projectUrl="https://www.neonlabs.org/"
-          />
+          /> */}
           <ProjectItem
             title="Tatum"
             backgroundImg={tatumImg}
